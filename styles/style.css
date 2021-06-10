@@ -1,23 +1,19 @@
-header {
+header, .contact {
+  height: 100vh;
+  color: black;
   background-color: lightblue;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   color: black;
 }
 
-header button {
+header button, .contact button {
   background: #00ff0d;
 }
 
-header button {
-  background: #00ff0d;
+header button::after, .contact button::after {
+  content: "hiIII";
 }
 
-.contact button {
-  background-color: #00ff0d;
+.contact {
+  background-color: lightcoral;
 }
 /*# sourceMappingURL=style.css.map */

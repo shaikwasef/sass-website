@@ -1,20 +1,7 @@
-$primaryBtn :rgb(0, 255, 13);
-$textColor : black;
+@import "./variables.scss";
+@import "./header.scss";
 
-header{
-    background-color: lightblue;
-    display: flex;
-    justify-content: center;
-    color : $textColor;
-    button {
-        background : $primaryBtn;
-    }
-}
-
-header button {
-    background :$primaryBtn;
-}
-
-.contact button {
-    background-color: $primaryBtn;
+.contact {
+    @extend header ;
+    background-color: lightcoral;
 }
